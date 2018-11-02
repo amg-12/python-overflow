@@ -6,8 +6,8 @@ def isEven(x):
 			return True
 		elif x == 1:
 			return False
-		print x
+		print(x)
 		x = int(subprocess.check_output(['java', 'SquareInt', str(x)]))
 
 if __name__ == '__main__':
-	print isEven(input())
+	print(isEven(input()))
