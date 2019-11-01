@@ -1,6 +1,6 @@
-module Even (isEven) where
+module Even (even') where
 
-isEven :: Int -> Bool
-isEven 0 = True
-isEven 1 = False
-isEven x = isEven $ x^2
+even' :: Int -> Bool
+even' 0 = True
+even' 1 = False
+even' x = isEven $ x^2
